@@ -8,8 +8,18 @@
 </head>
 <body>
     <?php 
-        echo "Hello World<br>\n";
-        echo "Date is: " . date('j-m-y, h:i:s');
+       include("header.php");
+    ?>
+    <?php 
+       include("menu.php");
+    ?>
+    <h1>Pierre Giraud</h1>
+    <p>
+        Bienvenue sur mon site !<br/>
+        Sur celui-ci, vous trouverez des cours et tutoriels gratuits de programmation, en referencement, etc.
+    </p>
+    <?php
+    include("footer.php"); 
     ?>
 </body>
 </html>
